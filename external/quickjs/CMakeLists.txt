@@ -1,8 +1,8 @@
-# This file is part of AhiGram Desktop,
+# This file is part of Gramium Desktop,
 # a set of libraries for developing nice desktop applications.
 #
 # For license and copyright information please follow this link:
-# https://github.com/AhiGram/cmake_helpers/blob/master/LEGAL
+# https://github.com/GramiumApp/cmake_helpers
 
 add_library(external_quickjs INTERFACE IMPORTED GLOBAL)
 add_library(desktop-app::external_quickjs ALIAS external_quickjs)
