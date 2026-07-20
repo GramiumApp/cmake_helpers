@@ -72,6 +72,7 @@ set_target_properties(external_quickjs_bundled PROPERTIES
 if (MSVC)
     target_compile_options(external_quickjs_bundled
     PRIVATE
+        /experimental:c11atomics
         /wd4018
         /wd4100
         /wd4200
